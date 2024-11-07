@@ -65,18 +65,18 @@ body{
 .main .left .images img{
     width: 26%;
     border-radius: 5px;
-    /* animation-name: round; */
-    /* animation-duration: 1s; */
-    /* animation-iteration-count: 4; */
+    animation-name: round;
+    animation-duration: 1s; 
+    animation-iteration-count: 4;
 }
-/* @keyframes round{
+@keyframes round{
     0%{
         transform: rotate(0);
     }
     100%{
         transform: rotate(360deg);
     }
-} */
+}
 .main .left h1{
     font-size: 4rem;
 }
